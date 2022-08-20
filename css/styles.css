@@ -1,0 +1,140 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom, hsl(217, 54%, 11%), hsl(217, 54%, 12%));
+	display: table;
+	margin: 0;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	color: hsl(0, 0%, 100%);
+	font-size: 22px;
+	font-weight: 500;
+}
+
+h1:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+hr {
+	height: 0;
+	border-style: solid none none;
+	border-color: hsl(215, 32%, 27%);
+}
+
+.author-name {
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
+
+.author-name:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.avatar-img {
+	border: solid hsl(0, 0%, 100%);
+	border-radius: 50%;
+	border-width: 1px;
+	margin-right: 15px;
+	width: 2rem;
+}
+
+.content-and-attr {
+	display: table-cell;
+	color: rgb(150, 173, 205);
+	vertical-align: middle;
+}
+
+.equilibrium-img {
+	border-radius: 10px;
+	margin-top: 7.5%;
+	width: 85%;
+}
+
+.equi-all-text {
+	padding: 10px 25px 10px;
+	text-align: left;
+}
+
+.equi-para-txt {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.equi-title {
+	text-decoration: none;
+}
+
+.ethe-and-time-para{
+	margin: 22px 0;
+}
+
+.ethereum {
+	color: hsl(178, 100%, 50%);
+	display: inline-block;
+	width: 148px;
+}
+
+.eye-icon {
+	background-color: transparent;
+	border-radius: 10px;
+	padding: 124.75px;
+	position: absolute;
+	left: 691px;
+	top: 178px;
+}
+
+.eye-icon:hover {
+	background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.eye-icon:hover > g .eye-path {    /*Method to change property of a child element when hovering over parent*/
+    fill: #FFF;
+}
+
+.eye-path {
+	fill: transparent;
+}
+
+.icon-clock {
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+
+.icon-ethereum {
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+
+.main-card {
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 15px;
+	box-shadow: 0px 30px 50px 50px rgb(12, 23, 41);
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	margin: auto;
+	width: 350px;
+}
+
+.signature {
+	font-weight: 300;
+}
+
+.signature-txt {
+	position: relative;
+	bottom: 10px;
+}
+
+.time-left {
+	display: inline-block;
+	text-align: right;
+	width: 148px;
+}
