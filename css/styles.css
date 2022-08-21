@@ -86,8 +86,7 @@ hr {
 	border-radius: 10px;
 	padding: 124.75px;
 	position: absolute;
-	left: 691px;
-	top: 178px;
+	margin: 26.25px auto 0;
 }
 
 .eye-icon:hover {
